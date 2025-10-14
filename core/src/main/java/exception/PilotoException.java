@@ -1,4 +1,9 @@
 package exception;
 
-public interface PilotoException{
+public class PilotoException  extends RuntimeException{
+    public PilotoException(String message) {
+            super(message);
+    }
 }
+
+
